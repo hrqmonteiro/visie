@@ -4,10 +4,19 @@ const feedController = require('../controllers/feed')
 
 const router = express.Router()
 
-// GET /feed/pessoas
-router.get('/pessoas', feedController.getPeople)
+// GET /feed/persons GET PERSONS
+router.get('/persons', feedController.getPersons)
 
-// POST /feed/post
-router.post('/post', feedController.postPeople)
+// GET / feed/person/id GER PERSON
+router.get('/person/:personId', feedController.getPerson)
+
+// POST /feed/person CREATE PERSON
+router.post('/person', feedController.postPerson)
+
+// PUT /feed/person/id UPDATE PERSON
+router.put('/person/:personId', feedController.updatePerson)
+
+// DELETE /feed/person/id
+router.delete('/person/:personId', feedController.deletePerson)
 
 module.exports = router
