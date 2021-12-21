@@ -8,19 +8,19 @@ const postSchema = new Schema(
       required: true,
     },
     rg: {
-      type: String,
+      type: Number,
       required: true,
     },
     cpf: {
-      type: String,
+      type: Number,
       required: true,
     },
     dataNascimento: {
-      type: Number,
+      type: Date,
       required: true,
     },
     dataAdmissao: {
-      type: Number,
+      type: Date,
       required: true,
     },
   },
