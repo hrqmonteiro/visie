@@ -177,7 +177,7 @@
                   type="submit"
                   class="w-full text-white bg-accent hover:bg-accent-focus focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 transition-all duration-200"
                 >
-                  Criar
+                  Atualizar
                 </button>
                 <br />
                 <span v-if="showSuccessMessage">Adicionado com sucesso!</span>
