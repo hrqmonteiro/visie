@@ -4,7 +4,7 @@ const feedController = require('../controllers/feed')
 
 const router = express.Router()
 
-// GET /feed/persons GET PERSONS - fetch todas pessoas
+// GET /feed/persons GET PERSONS - fetch todas as pessoas
 router.get('/persons', feedController.getPersons)
 
 // GET / feed/person/id GER PERSON - pessoa individual

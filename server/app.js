@@ -29,6 +29,6 @@ mongoose
     'mongodb+srv://henriquemonteiro:aGVucmlxdWVt@cluster0.sughe.mongodb.net/pessoas?retryWrites=true&w=majority'
   )
   .then((result) => {
-    app.listen(8080)
+    app.listen(3000)
   })
   .catch((err) => console.log(err))
